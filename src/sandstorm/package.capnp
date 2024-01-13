@@ -532,6 +532,9 @@ struct Metadata {
   # Documents the history of changes in Github-flavored markdown format (with the same restrictions
   # as govern `description`). We recommend formatting this with an H1 heading for each version
   # followed by a bullet list of changes.
+
+
+  isDocker @18 :Bool = false
 }
 
 struct OsiLicenseInfo {
