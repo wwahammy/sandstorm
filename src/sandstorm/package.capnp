@@ -534,7 +534,7 @@ struct Metadata {
   # followed by a bullet list of changes.
 
 
-  isDocker @18 :Bool = false
+  isDocker @18 :Bool = false;
 }
 
 struct OsiLicenseInfo {
